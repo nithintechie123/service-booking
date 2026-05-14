@@ -8,6 +8,7 @@ const {
 
 router.use(protect, authorize('admin'));
 
+//Routes
 router.get('/dashboard', getDashboard);
 router.get('/users', getUsers);
 router.get('/workers', getWorkers);
